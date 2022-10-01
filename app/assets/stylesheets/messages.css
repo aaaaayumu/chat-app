@@ -17,12 +17,16 @@
   height: 100px;
   background-color: #253141;
   padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .chat-names{
   height: calc(100vh - 100px);
   background-color: #2f3e51;
   padding: 0 20px;
+  overflow: scroll;
 }
 
 .chat-header{
@@ -41,4 +45,33 @@
   height: 90px;
   background-color: #dddddd;
   padding: 20px 40px;
+}
+
+.user-name{
+  font-size: 16px;
+}
+
+.user-name a{
+  color: #fafafa;
+  text-decoration: none;
+}
+
+.create-chat{
+  padding: 14px;
+  border: 1px solid lightblue;
+  font-size: 10px;
+}
+
+.create-chat a{
+  color: deepskyblue;
+  text-decoration: none;
+}
+
+.chat-name{
+  margin: 20px 0 40px 0;
+}
+
+.chat-name a{
+  color: white;
+  text-decoration: none;
 }
